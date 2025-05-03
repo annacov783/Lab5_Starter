@@ -69,7 +69,7 @@ function init() {
       if (audio.src) {
         audio.play();
 
-        if(select.value === 'party-horn') {
+        if(getElement.value === 'party-horn') {
           jsConfetti.addConfetti();
         }
       }
