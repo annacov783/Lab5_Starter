@@ -15,15 +15,15 @@ function init() {
     const options = {
       'air-horn': {
         img: 'assets/images/air-horn.svg',
-        audio: 'assets/images/air-horn.mp3'
+        audio: 'assets/audio/air-horn.mp3'
       },
       'car-horn': {
         img: 'assets/images/car-horn.svg',
-        audio: 'assets/images/car-horn.mp3'
+        audio: 'assets/audio/car-horn.mp3'
       },
       'party-horn': {
         img: 'assets/images/party-horn.svg',
-        audio: 'assets/images/party-horn.mp3'
+        audio: 'assets/audio/party-horn.mp3'
       }
     };
 
