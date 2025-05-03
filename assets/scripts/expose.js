@@ -27,7 +27,7 @@ function init() {
       }
     };
 
-    select.addEventListener('change', function (event) {
+    getElement.addEventListener('change', function (event) {
       const getValue = event.target.value;
       
       const op = options[getValue];
