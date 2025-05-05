@@ -30,7 +30,7 @@ function init() {
   populateVoices();
 
   if(typeof synth.onvoiceschanged !== undefined) {
-    synth.onvoiceschanged = populateVoiceList;
+    synth.onvoiceschanged = populateVoices;
   }
 
   playButton.addEventListener('click', () => {
