@@ -27,7 +27,7 @@ function init() {
     }
   }
 
-  populateVoiceList();
+  populateVoices();
 
   if(typeof synth.onvoiceschanged !== undefined) {
     synth.onvoiceschanged = populateVoiceList;
